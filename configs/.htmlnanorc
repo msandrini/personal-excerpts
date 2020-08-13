@@ -1,0 +1,5 @@
+// This was done because SVGO was changing the SVG result when minifying
+
+{
+    "minifySvg": false
+}

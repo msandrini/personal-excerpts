@@ -1,0 +1,7 @@
+// This was done because SVGO was changing the SVG result when minifying
+
+{
+  svgo: false,
+  prettier: false,
+  typescript: true
+}
