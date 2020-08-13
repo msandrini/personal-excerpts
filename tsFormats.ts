@@ -30,3 +30,5 @@ export interface CallReturn<T> {
 }
 
 type Children = React.ReactNode // Recommended for when you can have null|string|Node
+
+type AnyObject = Record<string, unknown>
