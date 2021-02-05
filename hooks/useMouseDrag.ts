@@ -102,8 +102,8 @@ export default function useMouseDrag (
   const handleMouseUp = (event: MouseEvent): void => {
     if (!hasMouse) return
     if (element?.contains(event.target as Node)) {
-      // This timeout is here so the click event triggers before this
-      setTimeout(endDrag, 80)
+      // This delay is here so the click event triggers before this
+      requestAnimationFrame(endDrag)
     }
   }
 
